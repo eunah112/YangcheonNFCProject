@@ -4,41 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="/css/font.css">
     <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        /*font*/
-        @font-face {
-            font-family: 'Pretendard-Regular';
-            src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
-            font-weight: 400;
-            font-style: normal;
-        }
-
-        .title {
-            font-family: 'Pretendard-Regular', sans-serif;
-        }
-
-        @keyframes slide-modal-close {
-            from {
-            visibility: visible;
-            margin-top: 2em;
-            opacity: 1;
-            }
-            50% {
-            visibility:visible;
-            }
-            to{
-            visibility: hidden;
-            margin-top: 0;
-            opacity: 0;
-            }
-        }
-        ;
-    </style>
+    <script src="/js/sidehtml.js" defer></script>
 </head>
 <body class="m-0 p-0">
-    <div class="flex items-center justify-center w-full h-screen bg-[#D5CABD] m-auto p-auto">
+    <div class="flex items-center justify-center w-full h-screen bg-[#F2F2F2] m-auto p-auto">
         <div class="title flex flex-col items-center justify-between bg-white w-[300px] h-[450px] rounded-[20px] overflow-hidden drop-shadow-2xl" id="offdisplay">
             <!--해우리 이미지-->
             <div class="flex flex-col items-center justify-center w-[160px] h-[180x] object-cover mt-[70px]">
@@ -60,21 +31,11 @@
             </div>
 
     </div>
-    <div class="hidden flex items center" id="ondisplay">
+    <div class="hidden w-full h-screen" id="ondisplay">
+        <div class="">
+
+        </div>
         <span>체험존 설명</span>
     </div>
-    <script>
-        function offDisplay() {
-            document.getElementById("offdisplay").style.display = "none";
-            document.getElementById("ondisplay").style.display = "block"
-        }
-
-        //const
-
-        //offDisplay.addEventListener('click', () => {
-          //      offDisplay.style.display = 'block';
-            //})
-
-    </script>
 </body>
 </html>
