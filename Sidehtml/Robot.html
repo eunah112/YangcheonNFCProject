@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/css/font.css">
+    <link rel="stylesheet" href="/css/sidehtml.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="/js/sidehtml.js" defer></script>
 </head>
-<body class="m-0 p-0">
-    <div class="flex items-center justify-center w-full h-screen bg-[#F2F2F2] m-auto p-auto">
-        <div class="title flex flex-col items-center justify-between bg-white w-[300px] h-[450px] rounded-[20px] overflow-hidden drop-shadow-2xl" id="offdisplay">
+<body class="bg-white flex justify-center items-center">
+    <div class="app1 bg-[#F5F4FA] flex justify-center items-center px-[30px]" id="offdisplay">
+        <div class="title flex flex-col items-center justify-between bg-white w-[300px] h-[450px] rounded-[20px] overflow-hidden drop-shadow-2xl">
             <!--해우리 이미지-->
-            <div class="flex flex-col items-center justify-center w-[160px] h-[180x] object-cover mt-[70px]">
+            <div class="flex flex-col items-center justify-center w-[160px] h-[180px] object-cover mt-[70px]">
                 <img class="drop-shadow-lg" src="../img/dogRobot.png" alt="">
             </div>
             <div class="mb-[20px] mt-[20px]">
@@ -22,20 +23,28 @@
                 </div>
                 <!--선 hr -->
                 <div class="flex justify-center">
-                    <hr class="w-[250PX] h-[1px] bg-[lightgrey] mb-[20px] ">
+                    <hr class="w-[250px] h-[1px] bg-[lightgrey] mb-[20px]">
                 </div>
                 <!--확인 button-->
                 <div class="text-center text-[16px]">
-                    <button class="text-center w-[100px] " onclick="offDisplay()">확인</button>
+                    <button class="text-center w-[100px]" onclick="offDisplay()">확인</button>
                 </div>
             </div>
-
+        </div>    
     </div>
-    <div class="hidden w-full h-screen" id="ondisplay">
-        <div class="">
-
+    <div class="app2 title bg-[#F5F4FA] hidden" id="ondisplay">
+        <div class="m-4 text-sm text-[#9d9d9d]">
+            넓은들 미래교육센터
         </div>
-        <span>체험존 설명</span>
+        <div class="flex flex-col items-center pt-[40px]">
+            <span class="run text-[#9d9d9d] text-lg">드론존</span>
+            <strong class="run text-[#333333] text-3xl">스카이 어드벤쳐</strong>
+        </div>
+        <div class="flex flex-row justify-center mt-[30px]">
+            <img class="w-[350px] drop-shadow-lg" src="/img/drone_mal1.png" alt="">
+        </div>
+        <div class="absolute inset-x-0 bottom-0 z-50"><img src="/img/cloud-bottom.png" alt=""></div>
+        </div>
     </div>
 </body>
 </html>
