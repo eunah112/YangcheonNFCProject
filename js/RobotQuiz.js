@@ -1,7 +1,9 @@
+document.addEventListener("touchstart", function() {}, true);
+
 const questions = [
-    "1번<br>오늘 수업에서 배운 로봇 중<br>AI 로봇이 있다.",
-    "2번<br>로봇의 눈 역할을 하는 센서는<br>카메라이다.",
-    "3번<br>로봇은 항상 정해진 일을<br>수행한다."
+    "Q.01<br>오늘 수업에서 배운 로봇 중<br>AI 로봇이 있다.",
+    "Q.02<br>로봇의 눈 역할을 하는 센서는<br>카메라이다.",
+    "Q.03<br>로봇은 항상 정해진 일을<br>수행한다."
 ];
 const answers = [true, true, false];
 let currentQuestion = 0;

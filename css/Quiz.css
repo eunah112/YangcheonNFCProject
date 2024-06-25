@@ -1,5 +1,44 @@
+@font-face {
+    font-family: 'BMJUA';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RixInooAriDuriR';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2207-01@1.0/RixInooAriDuriR.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.Titlefont {
+    font-family: 'RixInooAriDuriR', sans-serif;
+}
+
+.run {
+    font-family: 'BMJUA', sans-serif;
+}
+
 .hidden {
     display: none;
+}
+
+/*
+.app1 {
+        background: repeating-linear-gradient(yellow 70px, skyblue 30px); 
+      }
+*/
+
+
+.title1 {
+    -webkit-text-stroke: 3px #0857C3;
+    color: white;
+}
+
+.title2 {
+    -webkit-text-stroke: 3px #0857C3;
+    color: #FEE400;
 }
 
 .OBtn {
@@ -10,10 +49,68 @@
     background-color: #FEE400;
 }
 
+.OBtn:focus {
+    background-color: #FEE400;
+}
+
 .XBtn {
     background-color: #F2F2F2;
 }
 
 .XBtn:hover {
     background-color: #FEE400;
+}
+
+.XBtn:focus {
+    background-color: #FEE400;
+}
+
+#nextButton {
+    width: 70px;
+    height: 30px;
+    border: none;
+    background-color: #F2F2F2;
+    border-radius: 30px;
+    text-align: center;
+
+
+}
+
+#nextButton:hover {
+    width: 70px;
+    height: 30px;
+    border: solid 2px #dbdbdb;
+    background-color: white;
+    border-radius: 30px;
+    text-align: center;
+}
+
+#nextButton:focus {
+    width: 70px;
+    height: 30px;
+    border: solid 2px #dbdbdb;
+    background-color: white;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.speech-bubble {
+	position: relative;
+	background: white;
+	border-radius: .4em;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 33px solid transparent;
+	border-top-color: white;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -16.5px;
+	margin-bottom: -33px;
 }
