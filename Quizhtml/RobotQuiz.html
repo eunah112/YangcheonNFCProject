@@ -6,26 +6,70 @@
     <title>Document</title>
     <link rel="stylesheet" href="/css/font.css">
     <link rel="stylesheet" href="/css/sidehtml.css">
+    <link rel="stylesheet" href="/css/Quiz.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="/js/sidehtml.js" defer></script>
+    <script src="/js/RobotQuiz.js" defer></script>
 </head>
 <body class="bg-white flex justify-center items-center">
-    <div class="app1 bg-[white] flex  justify-center  p-[30px]" id="offdisplay">
+    <div id="App1Container" class="app1 bg-[white] flex justify-center items-center p-[30px]">
         <div class="flex flex-col">
-            <div class="bg-[url('../img/dogDrone.png')] bg-cover w-[80px] h-[80px] rounded-[100px] bg-[#FEF9C6] border-[#F3EDAF] border-solid border-[1px]"></div>
-            <div class="run my-[25px] text-[15px]">AI 로봇 QUIZ</div>
-            <div class="run text-[20px]">오늘 수업에서 배운 로봇 중</div>
-            <div class="run text-[20px]">AI 로봇이 있다.</div>
+            <div class="bg-[url('../img/dogDrone.png')] bg-cover w-[80px] h-[80px] rounded-[100px] bg-[#FEF9C6] border-[#F3EDAF] border-solid border-[1px] drop-shadow-md"></div>
+            <div class="run my-[25px] text-[15px] text-[#4B7CCF]">AI 로봇 QUIZ</div>
+            <div class="QUIZ">
+                <div id="question" class="run text-[20px]">1번<br>오늘 수업에서 배운 로보 중<br>AI 로봇이 있다.</div>
+            </div>
             <div class="flex flex-row items-center my-[20px]">
-                <div>
-                    <button class="w-[130px] h-[75px] bg-[grey] rounded-[25px] mx-[10px] bg-[#547ECD]"><img src="" alt=""></button>
-                    <div>맞아요!</div>
+                <div id="OButtonContainer">
+                    <button id="OButton" class="OBtn flex justify-center items-center w-[130px] h-[100px] rounded-[25px] mx-[10px] drop-shadow-md">
+                        <img class="w-[60px] h-[60px]" src="/img/OIcon.png" alt="">
+                    </button>
                 </div>
-                <div>
-                    <button class="w-[130px] h-[75px] bg-[grey] rounded-[25px] mx-[10px] bg-[#547ECD]"><img src="" alt=""></button>
-                    <div>아니에요!</div>
+                <div id="XButtonContainer">
+                    <button id="XButton" class="XBtn flex justify-center items-center w-[130px] h-[100px] rounded-[25px] mx-[10px] bg-[#F2F2F2] drop-shadow-md">
+                        <img class="w-[55px] h-[55px]" src="/img/XIcon.webp.png" alt="">
+                    </button>
                 </div>
             </div>
+            <div id="answer1" class="Answer1 flex flex-row items-center hidden">
+                <div class="text-[50px]">🥳</div>
+                <div class="Right">
+                    <div class="run ml-[20px]">짝짝짝! 정답이에요.</div>
+                    <div class="run ml-[20px]">다음 문제를 풀어볼까요?</div>
+                </div>
+            </div>
+            <div id="answer2" class="Answer2 flex flex-row items-center hidden">
+                <div class="text-[50px]">😭</div>
+                <div class="Wrong">
+                    <div class="run ml-[20px]">아쉽네요ㅜㅜ! 오답이에요.</div>
+                    <div class="run ml-[20px]">다음 문제를 풀어볼까요?</div>
+                </div>
+            </div>
+            <div id="answerfin1" class="flex flex-row itmes-center hidden">
+                <div class="text-[50px]">🥳</div>
+                <div class="Right">
+                    <div class="run ml-[20px]">짝짝짝! 정답이에요.</div>
+                    <div class="run ml-[20px]">문제를 모두 풀었어요~ 수고했어요!</div>
+                </div>
+            </div>
+            <div id="answerfin2" class="flex flex-row items-center hidden">
+                <div class="text-[50px]">😭</div>
+                <div class="Wrong">
+                    <div class="run ml-[20px]">아쉽네요ㅜㅜ! 오답이에요.</div>
+                    <div class="run ml-[20px]">문제를 모두 풀었어요~ 수고했어요!</div>
+                </div>
+            </div>              
+            <div class="run flex justify-center mt-[20px]">
+                <button id="nextButton" class="w-[70px] h-[30px] border-solid border-[2px] border-[#DBDBDB] rounded-[30px] text-center bg-[#F2F2F2] hidden">다음</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 새로운 App2Container 추가 -->
+    <div id="App2Container" class="app2 bg-[white] flex justify-center items-center p-[30px] hidden">
+        <div class="flex flex-col items-center">
+            <div class="text-[50px]">🎉</div>
+            <div class="text-[20px]">퀴즈가 끝났습니다! 잘 하셨어요!</div>
         </div>
     </div>
 </body>

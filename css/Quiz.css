@@ -1,0 +1,19 @@
+.hidden {
+    display: none;
+}
+
+.OBtn {
+    background-color: #F2F2F2;
+}
+
+.OBtn:hover {
+    background-color: #FEE400;
+}
+
+.XBtn {
+    background-color: #F2F2F2;
+}
+
+.XBtn:hover {
+    background-color: #FEE400;
+}
