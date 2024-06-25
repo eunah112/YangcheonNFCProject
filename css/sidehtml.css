@@ -1,13 +1,18 @@
 body, html {
-    height: 100%;
-    margin: 0;
-    overflow-x: hidden;
-    overflow-y: auto;
 }
 
 .app1 {
     max-width: 500px;
-    height: 100vh;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.app2 {
+    max-width: 500px;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 @media (max-width: 500px) {
