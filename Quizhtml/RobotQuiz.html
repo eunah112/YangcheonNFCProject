@@ -13,19 +13,19 @@
 </head>
 <body class="bg-white">
     <!-- App1Container -->
-    <div id="App1Container" class="App1Container bg-[#3389FF] flex items-center justify-center p-[30px]">
+    <div id="App1Container" class="App1Container flex flex-col items-center justify-center p-[30px]">
         <div class="flex flex-col items-center">
-            <div class="flex justify-center">
-                <div class="bg-[url('../img/dogRobot.png')] bg-cover w-[80px] h-[80px] drop-shadow-md"></div>
+            <div class="flex justify-center m-[10px]">
+                <div class="bg-[url('../img/dogRobot.png')] bg-contain bg-no-repeat w-[90px] h-[90px] drop-shadow-md"></div>
             </div>
             <div class= "text-center pb-[10px]">
-                <span class="Titlefont title1 text-[40px] z-10">AI 로봇<span class="title2 Titlefont my-[25px] text-[40px]"> OX</span> QUIZ</span>
+                <span class="Titlefont title1 text-[40px] z-10 drop-shadow-sm">AI 로봇<span class="title2 Titlefont my-[25px] text-[40px] drop-shadow-sm"> OX</span> QUIZ</span>
             </div>
-            <div class="bg-white p-[20px] rounded-[30px] drop-shadow-md">
+            <div class="bg-[#E8ECF7] border-white border-solid border-[10px] p-[20px] rounded-[20px] drop-shadow-xl">
                 <div class="QUIZ text-center">
                     <div id="question" class="run text-[20px] text-[#0857C3]">Q.01<br>오늘 수업에서 배운 로봇 중<br><b>AI 로봇</b>이 있다.</div>
                 </div>
-                <div class="flex flex-row items-center mt-[40px] mb-[25px]">
+                <div class="flex flex-row items-center justify-center mt-[40px] mb-[35px]">
                     <div id="OButtonContainer">
                         <button id="OButton" class="OBtn flex justify-center items-center w-[130px] h-[100px] rounded-[25px] mx-[10px] drop-shadow-md">
                             <img class="w-[60px] h-[60px]" src="/img/OIcon.png" alt="">
@@ -37,32 +37,32 @@
                         </button>
                     </div>
                 </div>
-            </div>
-            <div class="">
-                <div id="answer1" class="Answer1 flex flex-row items-center justify-center hidden bg-white mt-[20px] p-[20px] rounded-[30px] drop-shadow-md">
+                <div id="answer1" class="Answer1 flex flex-row items-center justify-center hidden bg-white w-[300px] mt-[20px] p-[20px] rounded-[30px] drop-shadow-md">
                     <div class="text-[50px]">🥳</div>
                     <div class="Right">
                         <div class="run ml-[20px]">짝짝짝! 정답이에요.</div>
                         <div class="run ml-[20px]">다음 문제를 풀어볼까요?</div>
                     </div>
                 </div>
-                <div id="answer2" class="Answer2 flex flex-row items-center justify-center hidden bg-white mt-[20px] p-[20px] rounded-[30px] drop-shadow-md">
+                <div id="answer2" class="Answer2 flex flex-row items-center justify-center hidden bg-white w-[300px] mt-[20px] p-[20px] rounded-[30px] drop-shadow-md">
                     <div class="text-[50px]">😭</div>
                     <div class="Wrong">
                         <div class="run ml-[20px]">아쉽네요ㅜㅜ! 오답이에요.</div>
                         <div class="run ml-[20px]">다음 문제를 풀어볼까요?</div>
                     </div>
                 </div>
-                <div id="answerfin1" class="flex items-center justify-center hidden bg-white mt-[20px] p-[20px] rounded-[30px] drop-shadow-md">
+                <div id="answerfin1" class="flex items-center justify-center hidden bg-white w-[300px] mt-[20px] p-[20px] rounded-[30px] drop-shadow-md">
                     <div class="text-[50px]">🥳</div>
                     <div class="run ml-[20px]">짝짝짝! 정답이에요.</div>
                 </div>
-                <div id="answerfin2" class="flex flex-row items-center justify-center hidden bg-white mt-[20px] p-[20px] rounded-[30px] drop-shadow-md">
+                <div id="answerfin2" class="flex items-center justify-center hidden bg-white w-[300px] mt-[20px] p-[20px] rounded-[30px] drop-shadow-md">
                     <div class="text-[50px]">😭</div>
                     <div class="run ml-[20px]">아쉽네요ㅜㅜ! 오답이에요.</div>
                 </div>              
-                <div class="run flex justify-center mt-[20px]">
-                    <button id="nextButton" class="hidden">다음</button>
+                <div class="run flex justify-center mt-[30px]">
+                    <button id="nextButton" class="flex items-center justify-center hidden">
+                        다음 >
+                    </button>
                 </div>
             </div>
             <div class="YangcheonLogo w-[50px] pt-[20px]">
@@ -71,15 +71,12 @@
         </div>
     </div>
     <!-- App2Container -->
-    <div id="App2Container" class="App2Container bg-[#3389FF] flex justify-center items-center p-[30px] hidden">
+    <div id="App2Container" class="App2Container flex justify-center items-center p-[30px] hidden">
         <div class="flex flex-col items-center">
-            <div class="run speech-bubble flex flex-col justify-center mb-[30px]">
-                <span>퀴즈가 끝났습니다!</span>
-                <span>모두 수고했어요~!</span>
-            </div>
+            <img class="relative" src="/img/mal_01.png" alt="">
+            <div class="maltext absolute">dsfdfsdfhj</div>
             <img class="h-[300px] drop-shadow-md" src="/img/dogproud.png" alt="">
         </div>
-        
     </div>
 </body>
 </html>
