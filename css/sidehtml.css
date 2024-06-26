@@ -1,24 +1,110 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: white;
 }
 
 .App1Container {
-    box-shadow: 0 0 15px 0 hsla(0, 0%, 100%, .75);
     max-width: 500px;
     min-height: 100vh;
     margin-left: auto;
     margin-right: auto;
     overflow-x: hidden;
+    background-color: #E8ECF7;
+    background-image: linear-gradient(90deg, #C5DEFF 10%, transparent 10%), linear-gradient(#C5DEFF 10%, transparent 10%);
+    background-size: 10px 10px;  
 }
 
 .App2Container{
-    box-shadow: 0 0 15px 0 hsla(0, 0%, 100%, .75);
     max-width: 500px;
     min-height: 100vh;
     margin-left: auto;
     margin-right: auto;
     overflow-x: hidden;
+    background-color: #AFD1FF;
+    background-image: linear-gradient(90deg, #C5DEFF 10%, transparent 10%), linear-gradient(#C5DEFF 10%, transparent 10%);
+    background-size: 10px 10px;
+}
+
+.title1 {
+    -webkit-text-stroke: 3px #2349DC;
+    color: white;
+}
+
+.title2 {
+    -webkit-text-stroke: 3px #2349DC;
+    color: #FEE400;
+}
+
+.title3 {
+    -webkit-text-stroke: 3px #F66E82;
+    color: white;
+}
+
+.title4 {
+    -webkit-text-stroke: 3px #2349DC;
+    color: #B9DAF3;
+}
+
+.box {
+    border:solid 4px #AFD1FF;
+    background-color: #E8ECF7;
+    border-radius: 30px;
+    box-shadow: 0 0 0 3px #E8ECF7;
+}
+
+.kakao1box {
+    border: solid 1px black;
+}
+
+.kakao2 {
+    display: flex;
+    align-items: start;
+    justify-content: end;
+}
+
+#prev {
+    width: 80px;
+    height: 40px;
+    border: solid 2px white;
+    background-color: #2349DC;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 0 0 0 1px #2349DC;
+    color: white;
+}
+
+#prev:hover {
+    width: 80px;
+    height: 40px;
+    border: solid 2px #8FBFFF;
+    background-color: white;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 0 0 0 1px white;
+    color: #8FBFFF;
+}
+
+#next {
+    width: 80px;
+    height: 40px;
+    border: solid 2px white;
+    background-color: #2349DC;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 0 0 0 1px #2349DC;
+    color: white;
+}
+
+#next:hover {
+    width: 80px;
+    height: 40px;
+    border: solid 2px #8FBFFF;
+    background-color: white;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 0 0 0 1px white;
+    color: #8FBFFF;
 }
 
 @media (max-width: 500px) {

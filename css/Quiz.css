@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: white;
 }
 
 .App0Container{
@@ -106,8 +107,8 @@ body {
 }
 
 .title4 {
-    -webkit-text-stroke: 3px #77AFF9;
-    color: #2349DC;
+    -webkit-text-stroke: 3px #2349DC;
+    color: #B9DAF3;
 }
 
 .Quiz {

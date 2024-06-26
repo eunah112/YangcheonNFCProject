@@ -9,9 +9,9 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="/js/sidehtml.js" defer></script>
 </head>
-<body class="bg-white flex justify-center items-center">
-    <div class="App1Container bg-[#E5E2F2] flex justify-center items-center px-[30px]" id="offdisplay">
-        <div class="title flex flex-col items-center justify-between bg-white w-[300px] h-[450px] rounded-[20px] overflow-hidden drop-shadow-2xl">
+<body>
+    <div class="App1Container run flex flex-col justify-center items-center px-[30px]" id="offdisplay">
+        <div class="flex flex-col items-center justify-between bg-white w-[300px] h-[450px] rounded-[20px] overflow-hidden drop-shadow-2xl">
             <!--해우리 이미지-->
             <div class="flex flex-col items-center justify-center w-[160px] h-[180px] object-cover mt-[70px]">
                 <img class="drop-shadow-lg" src="../img/dogRobot.png" alt="">
@@ -32,18 +32,60 @@
             </div>
         </div>    
     </div>
-    <div class="App2Container title bg-[#E5E2F2] hidden" id="ondisplay">
-        <div class="m-4 text-sm text-[#9d9d9d]">
-            넓은들 미래교육센터
+    <div class="App2Container flex flex-col items-center justify-center p-[30px] hidden" id="ondisplay">
+        <div class="flex flex-col items-center">
+            <span class="run text-[#2349DC] text-[30px]">드론존</span>
+            <span class="title1 Titlefont text-[45px]">스카이 어드벤쳐</span>
         </div>
-        <div class="flex flex-col items-center pt-[40px]">
-            <span class="run text-[#9d9d9d] text-lg">드론존</span>
-            <strong class="run text-[#333333] text-3xl">스카이 어드벤쳐</strong>
+        <div class="flex flex-col items-center mt-[30px]">
+            <div class="box flex flex-col justify-center run w-[300px] h-[400px] rounded-[10px] drop-shadow-2xl">
+                <div>
+                    <div class="flex items-start justify-start p-[10px]">
+                        <div class="kakao1img w-[60px] h-[60px] bg-[url('../img/dogRobot.png')] bg-contain bg-center bg-no-repeat rounded-[100px]"></div>
+                        <div class="flex flex-col items-start ml-[10px]">
+                            <div class="kakao1name">해누리</div>
+                            <div class="flex flex-col items-start rounded-[5px] bg-white p-[10px]">
+                                <span>안녕! 얘들아~!</span>
+                                <span>나는 해누리야~</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="kakao2 flex items-start justify-end py-[20px] px-[10px]">
+                        <div class="flex flex-col items-end mr-[10px]">
+                            <div class="kakao1name">양천구 멋쟁이</div>
+                            <div class="bg-[#FEE400] flex flex-col items-start rounded-[10px] p-[10px]">
+                                <span>오 안녕!!</span>
+                                <span>반가워~ 이곳을 설명해줄래?</span>
+                            </div>
+                        </div>
+                        <div class="w-[60px] h-[60px] bg-[url('../img/dogRobot.png')] bg-contain bg-center bg-no-repeat border border-[#2349DC] rounded-[100px]"></div>
+                    </div>
+                    <div class="flex items-start justify-start p-[10px]">
+                        <div class="kakao1img w-[60px] h-[60px] bg-contain bg-center"></div>
+                        <div class="flex flex-col items-start ml-[10px]">
+                            <div class="kakao1name">해누리</div>
+                            <div class="flex flex-col items-start rounded-[5px] bg-white p-[10px]">
+                                <span>알았어~!</span>
+                                <span>천천히 읽어봐~!</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="flex justify-center mt-[40px]">
+                <div class="flex flex-col items-center justify-center">
+                    <button id="prev" class="flex items-center justify-center  drop-shadow-md mx-[10px]">
+                        <span class="run"> 이전 </span>
+                    </button>
+                </div>
+                <div class="flex flex-col items-center justify-center">
+                    <button id="next" class="flex items-center justify-center bg-white w-[40px] h-[40px]  drop-shadow-md mx-[10px]">
+                        <span class="run">다음</span>
+                    </button>
+                </div>
+            </div>
         </div>
-        <div class="flex flex-row justify-center mt-[30px]">
-            <img class="w-[350px] drop-shadow-lg" src="/img/drone_mal1.png" alt="">
-        </div>
-        <div class="absolute inset-x-0 bottom-0 z-50 drop-shadow-2xl"><img src="/img/cloud-bottom.png" alt=""></div>
     </div>
 </body>
 </html>
