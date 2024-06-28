@@ -5,33 +5,23 @@ function offDisplay() {
     document.getElementById("ondisplay").style.display = "block"
 }
 
-const images = [
-    { src: "/img/drone_mal1.png", alt: "드론 이미지 1" },
-    { src: "/img/drone_mal2.png", alt: "드론 이미지 2" },
-    { src: "/img/drone_mal3.png", alt: "드론 이미지 3" }
-];
+let currentMessage = 1;
 
-let currentIndex = 0;
+document.getElementById('next').addEventListener('click', function () {
+    document.getElementById(`messageall_${currentMessage}`).classList.add('hidden');
+    currentMessage++;
+    document.getElementById(`messageall_${currentMessage}`).classList.remove('hidden');
+    updateButtons();
+});
 
-function updateImage() {
-    const imageElement = document.querySelector('#content img');
-    imageElement.src = images[currentIndex].src;
-    imageElement.alt = images[currentIndex].alt;
+document.getElementById('prev').addEventListener('click', function () {
+    document.getElementById(`messageall_${currentMessage}`).classList.add('hidden');
+    currentMessage--;
+    document.getElementById(`messageall_${currentMessage}`).classList.remove('hidden');
+    updateButtons();
+});
+
+function updateButtons() {
+    document.getElementById('prev').style.display = currentMessage === 1 ? 'none' : 'block';
+    document.getElementById('next').style.display = currentMessage === 3 ? 'none' : 'block';
 }
-
-document.getElementById('next').addEventListener('click', function() {
-    if (currentIndex < images.length - 1) {
-        currentIndex++;
-        updateImage();
-    }
-});
-
-document.getElementById('prev').addEventListener('click', function() {
-    if (currentIndex > 0) {
-        currentIndex--;
-        updateImage();
-    }
-});
-
-window.onload = updateImage;
-
