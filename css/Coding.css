@@ -11,7 +11,7 @@ body {
     margin-right: auto;
     overflow-x: hidden;
     /*background-color: #E8ECF7;*/
-    background-color: #c9ffe1;
+    background-color: #DBF1CB;
 }
 
 .App2Container{
@@ -26,52 +26,57 @@ body {
 }
 
 .title {
-    -webkit-text-stroke: 3px #0BAF7A;
-    color: #DFF0DC;
+    -webkit-text-stroke: 3px #60A72B;
+    color: #DBF1CB;
 }
 
 #prev {
     width: 80px;
     height: 40px;
     border: solid 2px white;
-    background-color: #0BAF7A;
+    background-color: #60A72B;
     border-radius: 30px;
     text-align: center;
-    box-shadow: 0 0 0 1px #0BAF7A;
+    box-shadow: 0 0 0 1px #60A72B;
     color: white;
+    filter: drop-shadow(0px 0px 4px #B4E292);
 }
+/*drop-shadow-md*/
 
 #prev:hover {
     width: 80px;
     height: 40px;
-    border: solid 2px #0BAF7A;
+    border: solid 2px #60A72B;
     background-color: white;
     border-radius: 30px;
     text-align: center;
     box-shadow: 0 0 0 1px white;
-    color: #0BAF7A;
+    color: #60A72B;
+    filter: drop-shadow(0px 0px 4px #B4E292);
 }
 
 #next {
     width: 80px;
     height: 40px;
     border: solid 2px white;
-    background-color: #0BAF7A;
+    background-color: #60A72B;
     border-radius: 30px;
     text-align: center;
-    box-shadow: 0 0 0 1px #0BAF7A;
+    box-shadow: 0 0 0 1px #60A72B;
     color: white;
+    filter: drop-shadow(0px 0px 4px #B4E292);
 }
 
 #next:hover {
     width: 80px;
     height: 40px;
-    border: solid 2px #0BAF7A;
+    border: solid 2px #60A72B;
     background-color: white;
     border-radius: 30px;
     text-align: center;
     box-shadow: 0 0 0 1px white;
-    color: #0BAF7A;
+    color: #60A72B;
+    filter: drop-shadow(0px 0px 4px #B4E292);
 }
 
 @media (max-width: 500px) {
@@ -89,7 +94,7 @@ body {
 .message-l {
     max-width: 210px;
     box-sizing: border-box;
-    background-color: #A7DEBE;
+    background-color: #DBF1CB;
     /*background-color: #FFEB33;*/
     /*background-color: #FFEB33;*/
     color: black;
