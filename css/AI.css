@@ -11,7 +11,7 @@ body {
     margin-right: auto;
     overflow-x: hidden;
     /*background-color: #E8ECF7;*/
-    background-color: #EBECF5;
+    background-color: #E7F4E4;
 }
 
 .App2Container{
@@ -20,89 +20,60 @@ body {
     margin-left: auto;
     margin-right: auto;
     overflow-x: hidden;
-    background-color: #EBECF5;
-    background-image: linear-gradient(90deg, #C5DEFF 10%, transparent 10%), linear-gradient(#C5DEFF 10%, transparent 10%);
+    background-color: #F1EFE2;
+    background-image: linear-gradient(90deg, #E2DFD6 10%, transparent 10%), linear-gradient(#E2DFD6 10%, transparent 10%);
     background-size: 10px 10px;
 }
 
-.title1 {
-    -webkit-text-stroke: 3px #2349DC;
-    color: #EBECF5;
-}
-
-.title2 {
-    -webkit-text-stroke: 3px #2349DC;
-    color: #FEE400;
-}
-
-.title3 {
-    -webkit-text-stroke: 3px #F66E82;
-    color: white;
-}
-
-.title4 {
-    -webkit-text-stroke: 3px #2349DC;
-    color: #B9DAF3;
-}
-
-.box {
-    background-color: white;
-    border-radius: 30px;
-}
-
-.kakao1box {
-    border: solid 1px black;
-}
-
-.kakao2 {
-    display: flex;
-    align-items: start;
-    justify-content: end;
+.title {
+    -webkit-text-stroke: 3px #00C9AE;
+    color: #F1EFE2;
 }
 
 #prev {
     width: 80px;
     height: 40px;
     border: solid 2px white;
-    background-color: #2349DC;
+    background-color: #00C9AE;
     border-radius: 30px;
     text-align: center;
-    box-shadow: 0 0 0 1px #2349DC;
+    box-shadow: 0 0 0 1px #00C9AE;
     color: white;
 }
 
 #prev:hover {
     width: 80px;
     height: 40px;
-    border: solid 2px #8FBFFF;
+    border: solid 2px #00C9AE;
     background-color: white;
     border-radius: 30px;
     text-align: center;
     box-shadow: 0 0 0 1px white;
-    color: #8FBFFF;
+    color: #00C9AE;
 }
 
 #next {
     width: 80px;
     height: 40px;
     border: solid 2px white;
-    background-color: #2349DC;
+    background-color: #00C9AE;
     border-radius: 30px;
     text-align: center;
-    box-shadow: 0 0 0 1px #2349DC;
+    box-shadow: 0 0 0 1px #00C9AE;
     color: white;
 }
 
 #next:hover {
     width: 80px;
     height: 40px;
-    border: solid 2px #8FBFFF;
+    border: solid 2px #00C9AE;
     background-color: white;
     border-radius: 30px;
     text-align: center;
     box-shadow: 0 0 0 1px white;
-    color: #8FBFFF;
+    color: #00C9AE;
 }
+
 
 @media (max-width: 500px) {
     .App1Container {
@@ -117,8 +88,9 @@ body {
 }
 
 .message-l {
-    display: inline-block;
-    background-color: #F9F871;
+    max-width: 210px;
+    box-sizing: border-box;
+    background-color: #1CECCE;
     /*background-color: #FFEB33;*/
     color: black;
     border-radius: 0px 20px 20px 20px;
@@ -127,12 +99,33 @@ body {
 }
 
 .message-r {
-    display: inline-block;
+    max-width: 210px;
+    box-sizing: border-box;
+    box-sizing: border-box;
     background-color: #EEEEEE;
     color: #000;
     border-radius: 20px 0px 20px 20px;
     word-break: normal;
     padding: 10px;
+}
+
+.dogprofile {
+    background-color: white;
+    width:50px;
+    height: 50px;
+    border-radius: 10px;
+    border: white solid 3px;
+    filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(0 1px 1px rgb(0 0 0 / 0.06));
+    
+}
+
+.sunprofile {
+    background-color: white;
+    width:50px;
+    height: 50px;
+    border-radius: 10px;
+    border: white solid 3px;
+    filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(0 1px 1px rgb(0 0 0 / 0.06));
 }
 
 .hidden { display: none; }
