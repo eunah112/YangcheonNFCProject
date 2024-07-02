@@ -11,7 +11,7 @@ body {
     margin-right: auto;
     overflow-x: hidden;
     /*background-color: #E8ECF7;*/
-    background-color: #DBF1CB;
+    background-color: #FEFBF0;
 }
 
 .App2Container{
@@ -27,7 +27,7 @@ body {
 
 .title {
     -webkit-text-stroke: 3px #60A72B;
-    color: #DBF1CB;
+    color: #edfbe4;
 }
 
 #prev {

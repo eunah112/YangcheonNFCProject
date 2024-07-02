@@ -11,7 +11,7 @@ body {
     margin-right: auto;
     overflow-x: hidden;
     /*background-color: #E8ECF7;*/
-    background-color: #D4F4FF;
+    background-color: #bfeefe;
 }
 
 .App2Container{
@@ -20,58 +20,61 @@ body {
     margin-left: auto;
     margin-right: auto;
     overflow-x: hidden;
-    background-color: #D4F4FF;
+    background-color: #bfeefe;
     background-image: linear-gradient(90deg, #E5F8FF 10%, transparent 10%), linear-gradient(#E5F8FF 10%, transparent 10%);
     background-size: 10px 10px;
 }
 
 .title {
-    -webkit-text-stroke: 3px #FE9758;
+    -webkit-text-stroke: 3px #FE904C;
     color: #FEFBF0;
+    /*연한주황색 #FE9758*/
 }
 
 #prev {
     width: 80px;
     height: 40px;
     border: solid 2px white;
-    background-color: #FE9758;
+    background-color: #FE904C;
     border-radius: 30px;
     text-align: center;
-    box-shadow: 0 0 0 1px #FE9758;
+    box-shadow: 0 0 0 1px #FE904C;
     color: white;
+    filter: drop-shadow(0px 0px 2px #FE9758);
 }
 
 #prev:hover {
     width: 80px;
     height: 40px;
-    border: solid 2px #FE9758;
+    border: solid 2px #FE904C;
     background-color: white;
     border-radius: 30px;
     text-align: center;
     box-shadow: 0 0 0 1px white;
-    color: #FE9758;
+    color: #FE904C;
 }
 
 #next {
     width: 80px;
     height: 40px;
     border: solid 2px white;
-    background-color: #FE9758;
+    background-color: #FE904C;
     border-radius: 30px;
     text-align: center;
-    box-shadow: 0 0 0 1px #FE9758;
+    box-shadow: 0 0 0 1px #FE904C;
     color: white;
+    filter: drop-shadow(0px 0px 2px #FE9758);
 }
 
 #next:hover {
     width: 80px;
     height: 40px;
-    border: solid 2px #FE9758;
+    border: solid 2px #FE904C;
     background-color: white;
     border-radius: 30px;
     text-align: center;
     box-shadow: 0 0 0 1px white;
-    color: #FE9758;
+    color: #FE904C;
 }
 
 @media (max-width: 500px) {
@@ -89,7 +92,7 @@ body {
 .message-l {
     max-width: 210px;
     box-sizing: border-box;
-    background-color: #FFEB33;
+    background-color: #fcf4d6;
     /*background-color: #FFEB33;*/
     color: black;
     border-radius: 0px 20px 20px 20px;
@@ -128,5 +131,3 @@ body {
 }
 
 .hidden { display: none; }
-
-
