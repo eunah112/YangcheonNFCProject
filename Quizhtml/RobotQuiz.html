@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RobotQuiz</title>
     <link rel="stylesheet" href="/css/font.css">
-    <link rel="stylesheet" href="/css/sidehtml.css">
-    <link rel="stylesheet" href="/css/Quiz.css">
+    <link rel="stylesheet" href="/css/Robot_Quiz.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="/js/sidehtml.js" defer></script>
     <script src="/js/RobotQuiz.js" defer></script>
@@ -15,8 +14,8 @@
     <!-- App0Container -->
     <div id="App0Container" class="App0Container flex flex-col items-center justify-center p-[30px]">
         <div class="flex flex-col items-center">
-            <span class="Titlefont text-[#2349DC] text-[30px]">해우리와 함께하는</span>
-            <span class="Titlefont title1  text-[50px]">'AI 로봇 퀴즈'</span>
+            <span class="Titlefont text-[#FE904C] text-[30px] dr">해우리와 함께하는</span>
+            <span class="Titlefont title1  text-[50px] drop-shadow-md">'AI 로봇 퀴즈'</span>
         </div>
         <div class="w-[200px] my-[40px]">
             <img src="/img/dogAI.png" alt="">
@@ -26,18 +25,19 @@
     <!-- App1Container -->
     <div id="App1Container" class="App1Container flex flex-col items-center justify-center p-[30px] hidden">
         <div class="flex flex-col items-center">
-            <div class="flex justify-center m-[10px]">
+            <img class="w-[90px] m-[10px] drop-shadow-2xl" src="/img/robot.png" alt="">
+            <!--div class="flex justify-center m-[10px]">
                 <div class="bg-[url('../img/dogRobot.png')] bg-contain bg-no-repeat w-[90px] h-[90px] drop-shadow-md"></div>
-            </div>
+            </div-->
             <div class= "text-center pb-[10px]">
-                <span class="Titlefont title1 text-[40px] z-10 drop-shadow-sm">AI 로봇<span class="title2 Titlefont my-[25px] text-[40px] drop-shadow-sm"> OX</span> QUIZ</span>
+                <span class="Titlefont title1 text-[40px] z-10 drop-shadow-sm">AI 로봇 OX QUIZ</span>
             </div>
-            <div class="bg-[#E8ECF7] border-white border-solid border-[10px] p-[20px] rounded-[20px] drop-shadow-xl">
+            <div class="bg-[#F9F3E7] border-white border-solid border-[10px] p-[20px] rounded-[20px] drop-shadow-xl">
                 <div class="text-center mb-[1px]">
-                    <div class="Quiz run text-center text-[20px] text-[#6389D1]">Quiz</div>
+                    <div class="Quiz run text-center text-[20px] text-[#FE904C]">Quiz</div>
                 </div>
                 <div class="text-center">
-                    <div id="question" class="run text-[20px] text-[#0857C3]">오늘 수업에서 배운 로봇 중<br><b>AI 로봇</b>이 있다.</div>
+                    <div id="question" class="run text-[20px] text-[black]">오늘 수업에서 배운 로봇 중<br><b>AI 로봇</b>이 있다.</div>
                 </div>
                 <div class="flex flex-row items-center justify-center mt-[40px] mb-[35px]">
                     <div id="OButtonContainer">

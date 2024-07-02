@@ -11,9 +11,9 @@ body {
     margin-left: auto;
     margin-right: auto;
     overflow-x: hidden;
-    background-color: #E8ECF7;
-    background-image: linear-gradient(90deg, #C5DEFF 10%, transparent 10%), linear-gradient(#C5DEFF 10%, transparent 10%);
-    background-size: 10px 10px;  
+    background-color: #bfeefe;
+    background-image: linear-gradient(90deg, #E5F8FF 10%, transparent 10%), linear-gradient(#E5F8FF 10%, transparent 10%);
+    background-size: 10px 10px;
 }
 
 .App1Container {
@@ -23,9 +23,9 @@ body {
     margin-left: auto;
     margin-right: auto;
     overflow-x: hidden;
-    background-color: #AFD1FF;
-    background-image: linear-gradient(90deg, #C5DEFF 10%, transparent 10%), linear-gradient(#C5DEFF 10%, transparent 10%);
-    background-size: 10px 10px; 
+    background-color: #bfeefe;
+    background-image: linear-gradient(90deg, #E5F8FF 10%, transparent 10%), linear-gradient(#E5F8FF 10%, transparent 10%);
+    background-size: 10px 10px;
 }
 
 /*
@@ -46,23 +46,6 @@ body {
     background-size: 10px 10px;  
 }
 
-@media (max-width: 500px) {
-    .app1 {
-        width: 100%;
-        height: 100vh;
-    }
-
-    .app2 {
-        width: 100%;
-        height: 100vh;
-    }
-}
-
-.app2 {
-    max-width: 500px;
-    height: 100vh;
-}
-
 .hidden {
     display: none;
 }
@@ -71,10 +54,10 @@ body {
     width: 300px;
     height: 50px;
     border: solid 2px white;
-    background-color: #2349DC;
+    background-color: #FE904C;
     border-radius: 30px;
     text-align: center;
-    box-shadow: 0 0 0 1px #2349DC;
+    box-shadow: 0 0 0 1px #FE904C;
     color: white;
     font-size: 20px;
 }
@@ -82,37 +65,28 @@ body {
 .quizstart:hover {
     width: 300px;
     height: 50px;
-    border: solid 2px #8FBFFF;
+    border: solid 2px #FE904C;
     background-color: white;
     border-radius: 30px;
     text-align: center;
     box-shadow: 0 0 0 1px white;
-    color: #8FBFFF;
+    color: #FE904C;
 }
 
 
 .title1 {
-    -webkit-text-stroke: 3px #2349DC;
-    color: white;
+    -webkit-text-stroke: 3px #FE904C;
+    color: #FEFBF0;
 }
 
-.title2 {
-    -webkit-text-stroke: 3px #2349DC;
-    color: #FEE400;
-}
 
 .title3 {
     -webkit-text-stroke: 3px #F66E82;
     color: white;
 }
 
-.title4 {
-    -webkit-text-stroke: 3px #2349DC;
-    color: #B9DAF3;
-}
-
 .Quiz {
-    background: linear-gradient(#B9DAF3, #B9DAF3) no-repeat left bottom;
+    background: linear-gradient(#fcf4d6, #fcf4d6) no-repeat left bottom;
     background-size: 100% 10px; 
     display: inline;
 }
@@ -145,22 +119,22 @@ body {
     width: 82px;
     height: 42px;
     border: solid 2px white;
-    background-color: #2349DC;
+    background-color: #FE904C;
     border-radius: 30px;
     text-align: center;
-    box-shadow: 0 0 0 1px #2349DC;
+    box-shadow: 0 0 0 1px #FE904C;
     color: white;
 }
 
 #nextButton:hover {
     width: 82px;
     height: 42px;
-    border: solid 2px #8FBFFF;
+    border: solid 2px #FE904C;
     background-color: white;
     border-radius: 30px;
     text-align: center;
     box-shadow: 0 0 0 1px white;
-    color: #8FBFFF;
+    color: #FE904C;
 }
 
 .speech-bubble {
