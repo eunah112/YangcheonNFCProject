@@ -1,5 +1,3 @@
-console.log("JavaScript 파일이 성공적으로 로드되었습니다.");
-
 function offDisplay() {
     document.getElementById("offdisplay").style.display = "none";
     document.getElementById("ondisplay").style.display = "block";

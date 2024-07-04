@@ -11,9 +11,9 @@ body {
     margin-left: auto;
     margin-right: auto;
     overflow-x: hidden;
-    background-color: #bfeefe;
-    background-image: linear-gradient(90deg, #E5F8FF 10%, transparent 10%), linear-gradient(#E5F8FF 10%, transparent 10%);
-    background-size: 10px 10px;
+    background-color: #07243E;
+    background-image: linear-gradient(90deg, #2D5375 5%, transparent 5%), linear-gradient(#2D5375 5%, transparent 5%);
+    background-size: 15px 15px;
 }
 
 .App1Container {
@@ -23,9 +23,9 @@ body {
     margin-left: auto;
     margin-right: auto;
     overflow-x: hidden;
-    background-color: #bfeefe;
-    background-image: linear-gradient(90deg, #E5F8FF 10%, transparent 10%), linear-gradient(#E5F8FF 10%, transparent 10%);
-    background-size: 10px 10px;
+    background-color: #07243E;
+    background-image: linear-gradient(90deg, #2D5375 5%, transparent 5%), linear-gradient(#2D5375 5%, transparent 5%);
+    background-size: 15px 15px;
 }
 
 /*
@@ -41,9 +41,9 @@ body {
     margin-left: auto;
     margin-right: auto;
     overflow-x: hidden;
-    background-color: #E8ECF7;
-    background-image: linear-gradient(90deg, #C5DEFF 10%, transparent 10%), linear-gradient(#C5DEFF 10%, transparent 10%);
-    background-size: 10px 10px;  
+    background-color: #07243E;
+    background-image: linear-gradient(90deg, #2D5375 5%, transparent 5%), linear-gradient(#2D5375 5%, transparent 5%);
+    background-size: 15px 15px;
 }
 
 .hidden {
@@ -53,42 +53,38 @@ body {
 .quizstart {
     width: 300px;
     height: 50px;
-    border: solid 2px white;
-    background-color: #FE904C;
+    border: solid 2px #07243E;
+    background-color: #BCFF03;
     border-radius: 30px;
     text-align: center;
-    box-shadow: 0 0 0 1px #FE904C;
-    color: white;
+    box-shadow: 0 0 0 1px #BCFF03;
+    color: #07243E;
     font-size: 20px;
 }
 
 .quizstart:hover {
     width: 300px;
     height: 50px;
-    border: solid 2px #FE904C;
-    background-color: white;
+    border: solid 2px #BCFF03;
+    background-color: #07243E;
     border-radius: 30px;
     text-align: center;
-    box-shadow: 0 0 0 1px white;
-    color: #FE904C;
+    box-shadow: 0 0 0 1px #07243E;
+    color: #BCFF03;
 }
 
 
 .title1 {
-    -webkit-text-stroke: 3px #FE904C;
-    color: #FEFBF0;
+    -webkit-text-stroke: 2px #BCFF03;
+    color: #07243E;
+    filter: drop-shadow(0px 0px 2px #BCFF03);
 }
 
 
 .title3 {
-    -webkit-text-stroke: 3px #F66E82;
-    color: white;
-}
-
-.Quiz {
-    background: linear-gradient(#fcf4d6, #fcf4d6) no-repeat left bottom;
-    background-size: 100% 10px; 
-    display: inline;
+    -webkit-text-stroke: 2px #BCFF03;
+    color: #07243E;
+    filter: drop-shadow(0px 0px 2px #BCFF03);
 }
 
 .OBtn {
@@ -119,23 +115,23 @@ body {
 #nextButton {
     width: 82px;
     height: 42px;
-    border: solid 2px white;
-    background-color: #FE904C;
+    border: solid 2px #07243E;
+    background-color: #BCFF03;
     border-radius: 30px;
     text-align: center;
-    box-shadow: 0 0 0 1px #FE904C;
-    color: white;
+    box-shadow: 0 0 0 1px #BCFF03;
+    color: #07243E;
 }
 
 #nextButton:hover {
     width: 82px;
     height: 42px;
-    border: solid 2px #FE904C;
-    background-color: white;
+    border: solid 2px #BCFF03;
+    background-color: #07243E;
     border-radius: 30px;
     text-align: center;
-    box-shadow: 0 0 0 1px white;
-    color: #FE904C;
+    box-shadow: 0 0 0 1px #07243E;
+    color: #BCFF03;
 }
 
 .speech-bubble {

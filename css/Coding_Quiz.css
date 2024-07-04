@@ -11,8 +11,8 @@ body {
     margin-left: auto;
     margin-right: auto;
     overflow-x: hidden;
-    background-color: #bfeefe;
-    background-image: linear-gradient(90deg, #E5F8FF 10%, transparent 10%), linear-gradient(#E5F8FF 10%, transparent 10%);
+    background-color: #FEFBF0;
+    background-image: linear-gradient(90deg, #FEF5D8 10%, transparent 10%), linear-gradient(#FEF5D8 10%, transparent 10%);
     background-size: 10px 10px;
 }
 
@@ -23,8 +23,8 @@ body {
     margin-left: auto;
     margin-right: auto;
     overflow-x: hidden;
-    background-color: #bfeefe;
-    background-image: linear-gradient(90deg, #E5F8FF 10%, transparent 10%), linear-gradient(#E5F8FF 10%, transparent 10%);
+    background-color: #FEFBF0;
+    background-image: linear-gradient(90deg, #FEF5D8 10%, transparent 10%), linear-gradient(#FEF5D8 10%, transparent 10%);
     background-size: 10px 10px;
 }
 
@@ -41,9 +41,9 @@ body {
     margin-left: auto;
     margin-right: auto;
     overflow-x: hidden;
-    background-color: #E8ECF7;
-    background-image: linear-gradient(90deg, #C5DEFF 10%, transparent 10%), linear-gradient(#C5DEFF 10%, transparent 10%);
-    background-size: 10px 10px;  
+    background-color: #FEFBF0;
+    background-image: linear-gradient(90deg, #FEF5D8 10%, transparent 10%), linear-gradient(#FEF5D8 10%, transparent 10%);
+    background-size: 10px 10px;
 }
 
 .hidden {
@@ -54,41 +54,36 @@ body {
     width: 300px;
     height: 50px;
     border: solid 2px white;
-    background-color: #FE904C;
+    background-color: #60A72B;
     border-radius: 30px;
     text-align: center;
-    box-shadow: 0 0 0 1px #FE904C;
+    box-shadow: 0 0 0 1px #60A72B;
     color: white;
     font-size: 20px;
+    filter: drop-shadow(0px 0px 4px #B4E292);
 }
 
 .quizstart:hover {
     width: 300px;
     height: 50px;
-    border: solid 2px #FE904C;
+    border: solid 2px #60A72B;
     background-color: white;
     border-radius: 30px;
     text-align: center;
     box-shadow: 0 0 0 1px white;
-    color: #FE904C;
+    color: #60A72B;
+    filter: drop-shadow(0px 0px 4px #B4E292);
 }
 
 
 .title1 {
-    -webkit-text-stroke: 3px #FE904C;
-    color: #FEFBF0;
+    -webkit-text-stroke: 3px #60A72B;
+    color: #edfbe4;
 }
 
-
-.title3 {
-    -webkit-text-stroke: 3px #F66E82;
-    color: white;
-}
-
-.Quiz {
-    background: linear-gradient(#fcf4d6, #fcf4d6) no-repeat left bottom;
-    background-size: 100% 10px; 
-    display: inline;
+.title2 {
+    -webkit-text-stroke: 3px #60A72B;
+    color: #edfbe4;
 }
 
 .OBtn {
@@ -115,27 +110,29 @@ body {
     filter: drop-shadow(0px 0px 5px #FF5B00);
 }
 
-
 #nextButton {
     width: 82px;
     height: 42px;
     border: solid 2px white;
-    background-color: #FE904C;
+    background-color: #60A72B;
     border-radius: 30px;
     text-align: center;
-    box-shadow: 0 0 0 1px #FE904C;
+    box-shadow: 0 0 0 1px #60A72B;
     color: white;
+    filter: drop-shadow(0px 0px 4px white);
+    filter: drop-shadow(0px 0px 4px #B4E292);
 }
 
 #nextButton:hover {
     width: 82px;
     height: 42px;
-    border: solid 2px #FE904C;
+    border: solid 2px #60A72B;
     background-color: white;
     border-radius: 30px;
     text-align: center;
     box-shadow: 0 0 0 1px white;
-    color: #FE904C;
+    color: #60A72B;
+    filter: drop-shadow(0px 0px 4px #B4E292);
 }
 
 .speech-bubble {
